@@ -1,0 +1,19 @@
+{
+  "name": "flowsense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd apps/client && pnpm dev",
+    "server": "cd apps/server && pnpm start",
+    "dev": "concurrently \"pnpm run client\" \"pnpm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
